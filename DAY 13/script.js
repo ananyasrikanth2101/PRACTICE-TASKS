@@ -82,6 +82,6 @@ var interval = setInterval(() => {
   console.log(count);
   if (count === 1) {
     clearInterval(interval);
-    console.log("HAPPY BIRTHDAY MACHAAA");
+    document.body.getElementsByClassName("hema");
   }
 }, 1000);
