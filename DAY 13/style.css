@@ -10,3 +10,10 @@
 #para {
   background-color: beige;
 } */
+
+#hema {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

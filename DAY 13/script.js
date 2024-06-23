@@ -76,11 +76,11 @@
 // square.innerHTML = "<p>HELLO SQUARE</p>";
 // document.body.appendChild(square);
 
-var count = 10;
+var count = 11;
 var interval = setInterval(() => {
   count = count - 1;
   console.log(count);
-  if (count === 0) {
+  if (count === 1) {
     clearInterval(interval);
     console.log("HAPPY BIRTHDAY MACHAAA");
   }
