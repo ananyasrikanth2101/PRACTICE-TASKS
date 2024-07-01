@@ -76,12 +76,19 @@
 // square.innerHTML = "<p>HELLO SQUARE</p>";
 // document.body.appendChild(square);
 
-var count = 11;
-var interval = setInterval(() => {
-  count = count - 1;
-  console.log(count);
-  if (count === 1) {
-    clearInterval(interval);
-    document.body.getElementsByClassName("hema");
-  }
-}, 1000);
+// var count = 11;
+// var interval = setInterval(() => {
+//   count = count - 1;
+//   console.log(count);
+//   if (count === 1) {
+//     clearInterval(interval);
+//     (document.querySelector("h1"));
+//   }
+// }, 1000);
+
+// const heading = document.getElementById("id1");
+// // heading.innerText = "SASSY GIRL";
+// setTimeout(() => {
+//   heading.innerText = "SASSY GIRL";
+// }, 5000);
+// console.log(heading);

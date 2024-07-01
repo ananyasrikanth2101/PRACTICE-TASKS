@@ -1,0 +1,14 @@
+* {
+  height: 100vh;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.font {
+  color: red;
+  font-family: sans-serif;
+}
